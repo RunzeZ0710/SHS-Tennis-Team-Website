@@ -1,5 +1,5 @@
 import React from "react";
-import "../components/Matches.css";
+import "../components/MatchesBar.css";
 
 function Matches(){
     return(
