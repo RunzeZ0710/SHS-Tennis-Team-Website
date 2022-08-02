@@ -10,6 +10,13 @@ function Navbar(){
                 <Link to="/" className="navbar-logo">
                     SHS Tennis
                 </Link>  
+                <ul className = "nav-menu">
+                    <li className = "nav-item">
+                        <Link to="/matches" className="nav-links">
+                            Matches
+                        </Link>
+                    </li>
+                </ul>
             </div>
         </nav>
         </>
