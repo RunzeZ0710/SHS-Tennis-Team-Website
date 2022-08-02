@@ -1,6 +1,7 @@
 .body{
-    background-color: gold;
-    width: 100%;
+    background-color: #FFECCE;
+    max-width: 100%;
     height: 1000px;
-    border: 5px solid gold;
+    padding-left: 10px;
+    display: flex;
 }
