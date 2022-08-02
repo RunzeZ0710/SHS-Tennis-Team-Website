@@ -1,6 +1,8 @@
 .matches{
-    background-color: white;
-    width: 15%;
+    background-color: red;
+    width: 12%;
     height: 1000px;
     float: left;
+    display: flex;
+
 }

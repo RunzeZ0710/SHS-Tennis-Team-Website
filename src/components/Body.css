@@ -1,6 +1,7 @@
 .body{
     background-color: #FFECCE;
-    max-width: 85%;
+    max-width: 100%;
     height: 1000px;
+    padding-left: 10px;
     display: flex;
 }
