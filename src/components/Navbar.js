@@ -12,6 +12,12 @@ function Navbar(){
                 <Link to="/matches" className="nav-links">
                             Matches
                 </Link>
+                <Link to="/ourteam" className="nav-links">
+                    Our Team
+                </Link>
+                <Link to="calender" className="nav-links">
+                    Caleneder
+                </Link>
         
             </div>
         </>
