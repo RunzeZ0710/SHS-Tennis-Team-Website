@@ -1,8 +1,15 @@
 .matches{
     background-color: red;
-    width: 12%;
+    width: 20%;
     height: 1000px;
     float: left;
     display: flex;
-
+}
+.matchList{
+    color: white;
+    padding: 20px;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    line-height: 6rem;
 }
