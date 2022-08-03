@@ -15,8 +15,8 @@ function Navbar(){
                 <Link to="/ourteam" className="nav-links">
                     Our Team
                 </Link>
-                <Link to="calender" className="nav-links">
-                    Caleneder
+                <Link to="calendar" className="nav-links">
+                    Calendar
                 </Link>
         
             </div>
