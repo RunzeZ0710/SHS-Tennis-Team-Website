@@ -12,9 +12,15 @@ function Navbar(){
                 <Link to="/matches" className="nav-links">
                             Matches
                 </Link>
-                <Link to="/ourteam" className="nav-links">
-                    Our Team
-                </Link>
+                <div className="dropdown">
+                    <button className="nav-links">
+                        Our Teams
+                    </button>
+                    <div className="dropdown-content">
+                        <Link to="/boysTeam" className="subnav-links"> Boys Team</Link>
+                        <Link to="/girlsTeam" className="subnav-links"> Girls Team</Link>
+                    </div>
+                </div>
                 <Link to="calendar" className="nav-links">
                     Calendar
                 </Link>
