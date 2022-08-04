@@ -1,8 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 import "../components/Navbar.css";
 import {Link} from "react-router-dom";
 
 function Navbar(){
+    const [click, setClick] = useState(false);
+    const handleClick = () => setClick(!click);
     return(
         <>
             <div className="navbar-container">
@@ -10,10 +12,10 @@ function Navbar(){
                     SHS Tennis
                 </Link>  
                 <Link to="/matches" className="nav-links">
-                            Matches
+                        Matches
                 </Link>
                 <div className="dropdown">
-                    <button className="nav-links">
+                    <button className="nav-links" onClick={handleClick}>
                         Our Teams
                     </button>
                     <div className="dropdown-content">
