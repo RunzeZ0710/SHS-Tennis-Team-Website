@@ -33,12 +33,11 @@
 }
 
 .nav-links:hover{
-    border-top: 4px solid white;
+    border-bottom: 4px solid white;
     transition: all 0.2s ease-out;
 }
 
 .dropdown{
-
     float: left;
     overflow: hidden;
     width: 6rem;
