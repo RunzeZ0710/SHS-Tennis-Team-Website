@@ -4,4 +4,34 @@
     height: 1000px;
     padding-left: 10px;
     display: flex;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+.mainBody{
+    display: flex;
+
+}
+.girls-team-photo{
+    position: relative;
+    width: 100%;
+    height:fit-content;
+}
+.header-wrapper{
+    position: absolute;
+    background-color: rgba(255, 236, 206, 0.75);
+    border: 1rem double #E1DA10;
+    text-align: center;
+    padding: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.header{
+    font-size: 6rem;
+    font-family: rockwell;
+    opacity: 100%;
 }
