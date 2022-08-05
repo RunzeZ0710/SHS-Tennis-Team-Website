@@ -7,16 +7,16 @@ function Navbar(){
     const handleClick = () => setClick(!click);
     return(
         <>
-            <div className="navbar-container">
-                <Link to="/" className="navbar-logo">
-                    [LOGO]
-                </Link>  
-                <div className="nav-links-container">
+        <nav className="navbar">
+            <div className="navbar-container"> 
+                <Link to="/" className="nav-links">
+                    Home
+                </Link> 
                     <Link to="/matches" className="nav-links">
                             Matches
                     </Link>
-                    <div className="dropdown">
-                        <button className="nav-links" onClick={handleClick}>Our Teams</button>
+                    <div className="nav-links">
+                        <button onClick={handleClick}>Our Teams</button>
                         <div className={click ? "dropdown-content active" : "dropdown-content"}>
                             <Link to="/boysTeam" className="subnav-links"> Boys Team</Link>
                             <Link to="/girlsTeam" className="subnav-links"> Girls Team</Link>
@@ -25,8 +25,8 @@ function Navbar(){
                     <Link to="calendar" className="nav-links">
                         Calendar
                     </Link>
-                </div>
             </div>
+        </nav>
         </>
     );
 }
