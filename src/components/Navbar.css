@@ -3,24 +3,34 @@
     display: flex;
     grid-template-columns: 2;
     align-items: center;
-    height: 80px;
-    max-width: 100%;
+    height: 60px;
+    width: 100%;
     flex-direction: row;
     font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar-logo {
     color: #fff;
     text-decoration: none;
-    font-size: 2.5rem;
+    font-size: 2rem;
     display: flex;
     align-items: center;
-    margin-right: 3rem;
     margin-left: 2rem;
+    height: 100%;
 }
 
-
+.nav-links-container{
+    position: absolute;
+    background-color: #9DBBD8;
+    display: flex;
+    grid-template-columns: 3;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    flex-direction: row;
+    margin:37%;
+    
+}
 .nav-links {
     color: #fff;
     display: flex;
@@ -28,9 +38,11 @@
     text-decoration: none;
     height: 100%;
     justify-content: flex-start;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     margin-right: 4rem;
-    padding: 10px
+    padding: 10px;
+    padding-left: 0;
+    font-family: candara;
 }
 
 
@@ -46,6 +58,7 @@
     width: 6rem;
     white-space: nowrap;
     margin-right: 4rem;
+    height: 100%;
 }
 
 .dropdown button{
@@ -56,9 +69,6 @@
     align-items: center;
     text-decoration: none;
     justify-content: flex-start;
-    font-size: 1.25rem;
-    height: 5rem;
-    overflow: hidden;
 }
 .dropdown-content.active {
     display: block;
