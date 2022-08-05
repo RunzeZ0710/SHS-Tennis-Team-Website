@@ -21,8 +21,8 @@
 }
 .header-wrapper{
     position: absolute;
-    background-color: rgba(255, 236, 206, 0.75);
-    border: 1rem double #E1DA10;
+    background-color: rgba(203, 172, 125, 0.75);
+    border: 1rem double #f1c40f;
     text-align: center;
     padding: 2rem;
     padding-left: 4rem;
@@ -36,4 +36,5 @@
     font-size: 5rem;
     font-family: rockwell;
     opacity: 100%;
+    color: white;
 }
