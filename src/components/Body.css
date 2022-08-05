@@ -9,9 +9,8 @@
     text-align: center;
     z-index: 2;
 }
-.mainBody{
-    display: flex;
-
+.img{
+    position: absolute;
 }
 .girls-team-photo{
     position: relative;

@@ -7,9 +7,11 @@ function Body() {
     return(
         <>
         <div className="body">
-            <img className="girls-team-photo" src={girlsTeam} alt="Girls Team" />
-            <div className="header-wrapper">
-                <h1 className="header">SHS Tennis</h1>
+            <div className="img">
+                <img className="girls-team-photo" src={girlsTeam} alt="Girls Team" />
+                <div className="header-wrapper">
+                    <h1 className="header">SHS Tennis</h1>
+                </div>
             </div>
         </div>
         </>
