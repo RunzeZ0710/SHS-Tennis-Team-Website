@@ -7,6 +7,7 @@
     padding: 0;
     position: relative;
     text-align: center;
+    z-index: 2;
 }
 .mainBody{
     display: flex;
@@ -16,6 +17,8 @@
     position: relative;
     width: 100%;
     height:fit-content;
+    text-align: center;
+    align-content: center;
 }
 .header-wrapper{
     position: absolute;
@@ -31,7 +34,7 @@
 
 }
 .header{
-    font-size: 6rem;
+    font-size: 5rem;
     font-family: rockwell;
     opacity: 100%;
 }

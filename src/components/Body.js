@@ -1,6 +1,6 @@
 import React from "react";
 import "../components/Body.css";
-import girlsTeam from "./photos/girlsTeam.png"
+import girlsTeam from "./photos/girlsTeam.JPG"
 
 
 function Body() {
