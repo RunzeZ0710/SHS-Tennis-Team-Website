@@ -18,8 +18,8 @@ function Navbar(){
                     <div className="dropdown">
                         <button className="nav-links" onClick={handleClick}>Our Teams</button>
                         <div className={click ? "dropdown-content active" : "dropdown-content"}>
-                            <Link to="/boysTeam" className="subnav-links"> Boys Team</Link>
-                            <Link to="/girlsTeam" className="subnav-links"> Girls Team</Link>
+                            <Link to="/boysTeam" onClick={handleClick} className="subnav-links"> Boys Team</Link>
+                            <Link to="/girlsTeam" onClick={handleClick} className="subnav-links"> Girls Team</Link>
                         </div>
                     </div>
                     <Link to="calendar" className="nav-links">

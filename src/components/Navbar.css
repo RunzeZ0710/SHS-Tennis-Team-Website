@@ -7,6 +7,7 @@
     width: 100%;
     flex-direction: row;
     font-size: 25px;
+    z-index: 100;
 }
 
 .navbar-logo {
@@ -30,6 +31,7 @@
     flex-direction: row;
     margin:50%;
     transform: translate(-50%);
+    z-index: 101;
     
 }
 .nav-links {
@@ -44,6 +46,7 @@
     margin-left: 2rem;
     padding: 10px;
     padding-left: 0;
+    z-index: 100;
     font-family: candara;
 }
 
@@ -58,6 +61,7 @@
     float: left;
     white-space: nowrap;
     height: 100%;
+    z-index: 200;
 }
 
 .dropdown button{
@@ -68,6 +72,7 @@
     align-items: center;
     text-decoration: none;
     justify-content: flex-start;
+    z-index: 100;
 }
 .dropdown-content.active {
     display: block;
@@ -77,7 +82,7 @@
     font-size: 1.25rem;
     line-height: 2rem;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 100;
+    z-index: 900;
     opacity: 1;
     transform: translate(0%, -10%);
     -webkit-animation: fadeIn 0.3s;
@@ -98,6 +103,7 @@
     visibility: hidden;
     opacity: 0;
     overflow: hidden;
+    z-index: 100;
 }
 .dropdown-content a {
     float: none;
