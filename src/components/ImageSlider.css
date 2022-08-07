@@ -23,15 +23,28 @@
 
 .slide img{
     height: 100%;
+    animation: sliding 0.2s ease-out 0.2s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
 }
 
+@keyframes sliding{
+    0%{
+        visibility: visible;
+        opacity: 0%;
+    }
+    100%{
+        visibility: visible;
+        opacity: 100%;
+    }
+}
 .current{
     opacity: 1;
 }
 
-    .current .content{
-        opacity: 1;
-    }
+.current .content{
+    opacity: 1;
+}
 
 .content{
     position: absolute;
@@ -39,7 +52,7 @@
     left: 30%;
     width: 40%;
     padding: 3rem;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.75);
     animation: slide-up 0.5s ease-out 0.5s;
     animation-fill-mode: forwards;
     visibility: hidden;
@@ -48,12 +61,18 @@
 @keyframes slide-up{
     0%{
         visibility: visible;
+        opacity: 0%;
         top: 50%;
     }
     100%{
         visibility: visible;
+        opacity: 100%;
         top: 30%;
     }
+}
+
+.slide h2{
+    font-size: 30px;
 }
 
 .arrow {

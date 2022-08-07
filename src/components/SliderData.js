@@ -5,8 +5,8 @@ import girlsTeam3 from "./photos/girlsTeam3.jpg";
 export const SliderData= [
     {
     image: girlsTeam,
-    heading: "Slide-one",
-    desc: "somethign"
+    heading: "Shrewsbury High School Tennis",
+    desc: "add something cool here"
     },
     {
         image: girlsTeam2,

@@ -50,7 +50,6 @@ const ImageSlider = () => {
                                 <h2>{slide.heading}</h2>
                                 <p>{slide.desc}</p>
                                 <hr />
-                                <button className="--btn --btn-primary">Learn More</button>
                             </div>
                             
                             </>
