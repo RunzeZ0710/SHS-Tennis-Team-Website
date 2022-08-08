@@ -7,6 +7,7 @@ function Navbar(){
     const handleClick = () => setClick(!click);
     return(
         <>
+        <nav className = "navbar">
             <div className="navbar-container">
                 <Link to="/" className="navbar-logo">
                     [LOGO]
@@ -27,6 +28,7 @@ function Navbar(){
                     </Link>
                 </div>
             </div>
+            </nav>
         </>
     );
 }

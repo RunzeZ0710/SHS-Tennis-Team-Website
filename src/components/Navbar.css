@@ -1,3 +1,9 @@
+.navbar{
+    position: sticky;
+    z-index: 999;
+    top: 0px;
+}
+
 .navbar-container {
     background-color: #1D1F57;
     display: flex;
@@ -8,10 +14,11 @@
     flex-direction: row;
     font-size: 25px;
     z-index: 100;
+    position: absolute;
 }
 
 .navbar-logo {
-    position: absolute;
+
     color: #fff;
     text-decoration: none;
     font-size: 2rem;
