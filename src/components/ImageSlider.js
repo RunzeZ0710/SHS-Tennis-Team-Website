@@ -48,7 +48,7 @@ const ImageSlider = () => {
                             <img src={slide.image} alt="slide" />
                             <div className="content">
                                 <h2>{slide.heading}</h2>
-                                <p>{slide.desc}</p>
+            
                                 <hr />
                             </div>
                             

@@ -1,5 +1,5 @@
 .navbar-container {
-    background-color: #9DBBD8;
+    background-color: #1D1F57;
     display: flex;
     grid-template-columns: 2;
     align-items: center;
@@ -23,7 +23,7 @@
 
 .nav-links-container{
     position: absolute;
-    background-color: #9DBBD8;
+    background-color: #1D1F57;
     display: flex;
     grid-template-columns: 3;
     align-items: center;
@@ -76,10 +76,10 @@
     display: block;
     color: #fff;
     position: absolute;
-    background-color: #9DBBD8;
+    background-color: #1D1F57;
     font-size: 1.25rem;
     line-height: 2rem;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(255,255,255,0.3);
     z-index: 900;
     opacity: 1;
     transform: translate(0%, -10%);
