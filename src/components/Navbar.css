@@ -1,5 +1,13 @@
+.navbar{
+    position: sticky;
+
+    z-index: 999;
+    color: #1D1F57;
+    top: 0px;
+}
+
 .navbar-container {
-    background-color: #9DBBD8;
+    background-color: #1D1F57;
     display: flex;
     grid-template-columns: 2;
     align-items: center;
@@ -8,10 +16,11 @@
     flex-direction: row;
     font-size: 25px;
     z-index: 100;
+    position: absolute;
 }
 
 .navbar-logo {
-    position: absolute;
+
     color: #fff;
     text-decoration: none;
     font-size: 2rem;
@@ -23,7 +32,7 @@
 
 .nav-links-container{
     position: absolute;
-    background-color: #9DBBD8;
+    background-color: #1D1F57;
     display: flex;
     grid-template-columns: 3;
     align-items: center;
@@ -38,14 +47,12 @@
     color: #fff;
     display: flex;
     align-items: center;
+    text-align: center;
     text-decoration: none;
     height: 100%;
-    justify-content: flex-start;
     font-size: 1.5rem;
     margin-right: 2rem;
     margin-left: 2rem;
-    padding: 10px;
-    padding-left: 0;
     z-index: 100;
     font-family: candara;
 }
@@ -78,10 +85,10 @@
     display: block;
     color: #fff;
     position: absolute;
-    background-color: #9DBBD8;
+    background-color: #1D1F57;
     font-size: 1.25rem;
     line-height: 2rem;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(255,255,255,0.3);
     z-index: 900;
     opacity: 1;
     transform: translate(0%, -10%);
