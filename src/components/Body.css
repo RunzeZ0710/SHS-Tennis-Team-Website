@@ -8,3 +8,24 @@
     text-align: center;
     z-index: 2;
 }
+.core-values{
+    background-color: #FFECCE;
+    margin-top: 75px;
+    height: fit-content;
+}
+.core-value{    
+    width: 33.3%;
+    float: left;
+}
+.core-value h2{
+    padding-bottom: 20px;
+    font-family: candara;
+    font-size: 3rem;
+}
+.core-value p{
+    padding-right: 40px;
+    padding-left: 40px;
+    font-family: optima;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
