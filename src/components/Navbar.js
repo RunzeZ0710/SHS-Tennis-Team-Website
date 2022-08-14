@@ -1,10 +1,24 @@
-import React, {useState} from "react";
+import React, {useState, useEffect, useRef} from "react";
 import "../components/Navbar.css";
 import {Link} from "react-router-dom";
 
 function Navbar(){
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
+    const ref = useRef()
+    const [isMenuOpen, setIsMenuOpen] = useState(false)
+    useEffect(() => {
+        const checkIfClickedOutside = e => {
+        if (isMenuOpen && ref.current && !ref.current.contains(e.target)) {
+            setIsMenuOpen(false)
+            }
+        }
+        document.addEventListener("mousedown", checkIfClickedOutside)
+        return () => {
+            document.removeEventListener("mousedown", checkIfClickedOutside)
+        }
+    }, [isMenuOpen])
+
     return(
         <>
         <nav className = "navbar">
@@ -16,12 +30,14 @@ function Navbar(){
                     <Link to="/matches" className="nav-links">
                             Matches
                     </Link>
-                    <div className="dropdown">
-                        <button className="nav-links" onClick={handleClick}>Our Teams</button>
-                        <div className={click ? "dropdown-content active" : "dropdown-content"}>
-                            <Link to="/boysTeam" onClick={handleClick} className="subnav-links"> Boys Team</Link>
-                            <Link to="/girlsTeam" onClick={handleClick} className="subnav-links"> Girls Team</Link>
+                    <div className="dropdown" ref={ref}>
+                        <button className="nav-links" onClick={() => setIsMenuOpen(oldState => !oldState)}>Our Teams</button>
+                        {isMenuOpen && (
+                        <div className={"dropdown-content active"}>
+                            <Link to="/boysTeam" onClick={() => setIsMenuOpen(oldState => !oldState)} className="subnav-links"> Boys Team</Link>
+                            <Link to="/girlsTeam" onClick={() => setIsMenuOpen(oldState => !oldState)} className="subnav-links"> Girls Team</Link>
                         </div>
+                        )}
                     </div>
                     <Link to="calendar" className="nav-links">
                         Calendar

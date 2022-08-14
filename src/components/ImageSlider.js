@@ -58,7 +58,6 @@ const ImageSlider = () => {
                     </div>
                 )
             })}
-
         </div>
     )
 }
