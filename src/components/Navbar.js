@@ -3,8 +3,6 @@ import "../components/Navbar.css";
 import {Link} from "react-router-dom";
 
 function Navbar(){
-    const [click, setClick] = useState(false);
-    const handleClick = () => setClick(!click);
     const ref = useRef()
     const [isMenuOpen, setIsMenuOpen] = useState(false)
     useEffect(() => {
