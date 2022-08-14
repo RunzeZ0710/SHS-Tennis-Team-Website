@@ -3,7 +3,6 @@ import "../components/MatchesBar.css";
 
 function Matches(){
     return(
-        <>
         <div className="matches">
             <div className="matchesSideBar">
                 <ol className="matchList">
@@ -13,7 +12,6 @@ function Matches(){
                 </ol>
             </div>
         </div>
-        </>
     )
 }
 

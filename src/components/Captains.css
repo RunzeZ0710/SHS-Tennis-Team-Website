@@ -1,0 +1,39 @@
+.captains{
+    width: 100%;
+    background-color: #ffdeaa;
+    display: flex;
+    justify-content: center;
+}
+
+.captain-container{
+    height: 1000px;
+    background-color: #ffdeaa;
+    display: block;
+    width: 100%;
+    max-width: 1700px;
+    
+}
+
+.title{
+    margin-top: 40px; 
+    font-size: 75px;
+    text-align: center;
+}
+
+.girl-captain{
+    padding-top: 40px;
+    background-color: #ffdeaa;
+    font-size: 100px;
+    font-family: candara;
+}
+
+.left {
+    text-align: left;
+    margin-left: 10%;
+}
+
+.right {
+    text-align: right;
+    margin-right: 10%;
+}
+

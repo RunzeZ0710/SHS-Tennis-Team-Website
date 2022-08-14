@@ -1,9 +1,10 @@
 .matches{
+    top: 60px;
     background-color: red;
     width: 20%;
     height: 1000px;
-    float: left;
-    display: flex;
+    position: relative;
+    overflow: visible;
 }
 .matchList{
     color: white;

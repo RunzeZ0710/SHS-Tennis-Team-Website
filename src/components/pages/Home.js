@@ -1,8 +1,9 @@
 import React from "react";
 import '../../App.css';
-import Body from "../Body";
+import Body from "../CoreVals.js";
 import ImageSlider from "../ImageSlider"
 import "../pages/Home.css";
+import Coach from "../Captains";
 
 
 function Home(){
@@ -10,6 +11,7 @@ function Home(){
         <>
         <ImageSlider/>
         <Body/>
+        <Coach/>
         </>
     );
 }
