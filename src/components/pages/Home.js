@@ -3,7 +3,7 @@ import '../../App.css';
 import Body from "../CoreVals.js";
 import ImageSlider from "../ImageSlider"
 import "../pages/Home.css";
-import Coach from "../Captains";
+import Captains from "../Captains";
 
 
 function Home(){
@@ -11,7 +11,7 @@ function Home(){
         <>
         <ImageSlider/>
         <Body/>
-        <Coach/>
+        <Captains/>
         </>
     );
 }

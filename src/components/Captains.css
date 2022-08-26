@@ -6,34 +6,116 @@
 }
 
 .captain-container{
-    height: 1000px;
+    height: 600px;
     background-color: #ffdeaa;
     display: block;
     width: 100%;
-    max-width: 1700px;
-    
+    max-width: 1700px; 
 }
-
-.title{
-    margin-top: 40px; 
-    font-size: 75px;
+.captain-container h1{
+    font-size: 60px;
     text-align: center;
+    margin-top: 40px;
 }
 
-.girl-captain{
-    padding-top: 40px;
+
+.team-captains{
+    padding-top: 60px;
     background-color: #ffdeaa;
     font-size: 100px;
     font-family: candara;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+.captain{
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+}
+.captain h2{
+    font-size: 40px;
+    font-family: candara;
 }
 
-.left {
-    text-align: left;
-    margin-left: 10%;
+.coaches{
+    width: 100%;
+    background-color: #fcd493;
+    display: flex;
+    justify-content: center;
 }
 
-.right {
-    text-align: right;
-    margin-right: 10%;
+.coaches-container{
+    height: 1050px;
+    background-color: #fcd493;
+    display: block;
+    width: 100%;
+    max-width: 1700px; 
+    justify-content: center;
 }
+
+.coaches-container h1{
+    font-size: 60px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.coach-R{
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.coach-R img{
+    margin-right: 100px;
+}
+
+.coach-content{
+    background: #fedaa1;
+    width: 600px;
+    height: 300px;
+    align-self: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px 0px rgba(255,255,255,0.95);
+
+}
+.coach-content h2{
+    font-size: 50px;
+    font-family: candara;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.coach-content p{
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.coach-content hr{
+    width: 75%;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: black;
+    border: black
+}
+
+
+.coach-josh{
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+
+
+.coach-josh img{
+    margin-left: 100px;
+}
+
 
