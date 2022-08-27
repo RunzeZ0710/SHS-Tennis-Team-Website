@@ -1,0 +1,13 @@
+.body{
+    background-color: #FFECCE;
+    max-width: 100%;
+    display: flex;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+    justify-content: center;
+    top: 60px;
+}
+.calendar{
+    margin-top: 40px;
+}
