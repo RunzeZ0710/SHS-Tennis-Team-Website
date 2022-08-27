@@ -29,7 +29,10 @@ function Navbar(){
                             Matches
                     </Link>
                     <div className="dropdown" ref={ref}>
-                        <button className="nav-links" onClick={() => setIsMenuOpen(oldState => !oldState)}>Our Teams</button>
+                        <button className="nav-links" onClick={() => setIsMenuOpen(oldState => !oldState)}>
+                            Our Teams
+                            <i class="fa-solid fa-angle-down"></i>
+                        </button>
                         {isMenuOpen && (
                         <div className={"dropdown-content active"}>
                             <Link to="/boysTeam" onClick={() => setIsMenuOpen(oldState => !oldState)} className="subnav-links"> Boys Team</Link>

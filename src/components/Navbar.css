@@ -126,4 +126,13 @@
     transition: all 0.2s ease-out;
   }
 
+.nav-links i{
+    margin-left: 10px;
+    align-self: center;
+    font-size: 15px;
+    margin-top: 4px;
+}
+
+
+
 
