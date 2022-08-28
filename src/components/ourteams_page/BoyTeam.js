@@ -1,14 +1,14 @@
 import React from "react";
 import "../ourteams_page/BoyTeam.css";
 
-function Body(){
-    return(
+function Page_Body(){
+    return(     
         <div className="boyteam">
             <div className="boyteam-container">
-
+                
             </div>
         </div>
-    )
+    );
 }
 
-export default Body;
+export default Page_Body;

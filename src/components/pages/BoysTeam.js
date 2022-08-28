@@ -1,13 +1,14 @@
 import React from "react";
 import '../../App.css';
-import Body from "../ourteams_page/BoyTeam";
+import Page_Body from "../ourteams_page/BoyTeam.js";
+import "../pages/BoysTeam.css";
 
 function BoysTeam(){
     return(
         <>
-        <Body/>
+        <Page_Body/>
         </>
-    )
+    );
 }
 
 
