@@ -1,5 +1,5 @@
 import React from "react";
-import "../components/Calendar.css"
+import "../calendar_page/Calendar.css"
 
 function Body(props) {
     const {
