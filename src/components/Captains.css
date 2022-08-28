@@ -15,7 +15,7 @@
 .captain-container h1{
     font-size: 60px;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 
@@ -28,8 +28,8 @@
     align-items: center;
     align-content: center;
     justify-content: center;
-
 }
+
 .captain{
     margin-left: 25px;
     margin-right: 25px;
