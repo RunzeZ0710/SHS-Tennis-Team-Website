@@ -1,4 +1,4 @@
-.boyteam{
+.girlteam{
     width: 100%;
     background-color: #ffdeaa;
     display: flex;
@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-.boyteam-container{
+.girlteam-container{
     height: 1000px;
     background-color: #ffdeaa;
     display: flex;
