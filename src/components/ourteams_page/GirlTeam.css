@@ -23,5 +23,6 @@
 }
 iframe{
     width: 990px;
-    height: 632px;
+    height: 625px;
+    border: none;
 }
