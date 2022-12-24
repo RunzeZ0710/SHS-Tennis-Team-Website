@@ -23,7 +23,7 @@
     padding-top: 60px;
     background-color: #ffdeaa;
     font-size: 100px;
-    font-family: candara;
+    font-family: poppins;
     display: flex;
     align-items: center;
     align-content: center;
@@ -37,7 +37,7 @@
 }
 .captain h2{
     font-size: 40px;
-    font-family: candara;
+    font-family: poppins;
 }
 
 .coaches{
@@ -84,7 +84,7 @@
 }
 .coach-content h2{
     font-size: 50px;
-    font-family: candara;
+    font-family: Poppins;
     margin-left: 50px;
     margin-top: 30px;
 }
@@ -94,6 +94,7 @@
     margin-top: 10px;
     padding-left: 50px;
     padding-right: 10px;
+    font-family: poppins;
 }
 
 .coach-content hr{

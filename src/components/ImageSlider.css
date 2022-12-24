@@ -1,3 +1,5 @@
+
+
 .slider{
     width: 100%;
     height: 100%;
@@ -15,7 +17,7 @@
     position: relative;
     top: 0;
     left: 0;
-    height: 100%;
+   
     width: 100%;
     max-width: 1700px;
     opacity: 0%;
@@ -84,8 +86,8 @@
 }
 
 .slide h2{
-    font-size: 3rem;
-    font-family: candara;
+    font-size: 2.6rem;
+    font-family: Poppins;
 }
 
 .arrow {
