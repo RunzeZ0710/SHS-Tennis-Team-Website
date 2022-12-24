@@ -22,7 +22,7 @@ function Body() {
                 </div>
                 <div className="core-value">
                     <img src={discipline} alt="discipline" height="250px" width="250px" />
-                    <h2>discipline</h2>
+                    <h2>Discipline</h2>
                     <p>Qui pariatur nostrud est anim esse adipisicing enim nisi fugiat. Sint aute sint deserunt sint anim duis. Magna ad Lorem sit quis sint laborum.</p>
                 </div>
             </div>
