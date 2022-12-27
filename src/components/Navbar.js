@@ -1,10 +1,14 @@
-import React, {useState, useEffect, useRef} from "react";
+import React, {useState, useEffect, useRef, setState} from "react";
 import "../components/Navbar.css";
 import {Link} from "react-router-dom";
 
 function Navbar(){
     const ref = useRef()
     const [isMenuOpen, setIsMenuOpen] = useState(false)
+    const [click, setClick] = useState(false);
+    const handleClick = () => setClick(!click);
+    const closeMobileMenu = () => setClick(false);
+    
     useEffect(() => {
         const checkIfClickedOutside = e => {
         if (isMenuOpen && ref.current && !ref.current.contains(e.target)) {
@@ -22,8 +26,11 @@ function Navbar(){
         <nav className = "navbar">
             <div className="navbar-container">
                 <Link to="/" className="navbar-logo">
-                    [LOGO]
+                    SHS Tennis
                 </Link>  
+                <div className="menu-icon" onClick={handleClick}>
+                    <i className={click ? "fas fa-times" : "fas fa-bars"} />
+                </div>
                 <div className="nav-links-container">
                     <Link to="/matches" className="nav-links">
                             Matches
@@ -44,6 +51,24 @@ function Navbar(){
                         Calendar
                     </Link>
                 </div>
+            </div>
+            <div className={click ? "mobile-active" : "mobile-menu"}>
+                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                    Home
+                </Link>
+                <Link to="matches" className="nav-links" onClick={closeMobileMenu}>
+                    Highlights
+                </Link>
+                <Link to="/boysTeam" className="nav-links" onClick={closeMobileMenu}>
+                    Boys Team
+                </Link>
+                <Link to="/girlsTeam" className="nav-links" onClick={closeMobileMenu}>
+                    Girls Team
+                </Link>
+                <Link to="calendar" className="nav-links" onClick={closeMobileMenu}>
+                    Calendar
+                </Link>
+
             </div>
             </nav>
         </>
