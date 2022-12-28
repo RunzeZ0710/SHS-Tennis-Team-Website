@@ -48,7 +48,7 @@ function Captains(){
                         <div className="coach-content">
                             <h2>Coach R</h2>
                             <p>
-                                Qui pariatur nostrud est anim esse adipisicing enim nisi fugiat. Sint aute sint deserunt sint anim duis. Magna ad Lorem sit quis sint laborum.
+                                Many years of professional coaching experience. Girls coach.
                             </p>
                             <hr/>
                         </div>
@@ -57,7 +57,7 @@ function Captains(){
                         <div className="coach-content">
                             <h2>Coach Josh</h2>
                             <p>
-                                Qui pariatur nostrud est anim esse adipisicing enim nisi fugiat. Sint aute sint deserunt sint anim duis. Magna ad Lorem sit quis sint laborum. 
+                                Many years of professional coaching experience. Boys coach.
                             </p>
                             <hr/>
                         </div>

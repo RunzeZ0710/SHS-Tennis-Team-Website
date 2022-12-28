@@ -58,6 +58,13 @@ const ImageSlider = () => {
                     </div>
                 )
             })}
+            <div className="mobile-front-image">
+                <h2>SHS Tennis</h2>
+                <p>"Don't do drugs, it's too expensive"</p> 
+                <button>
+                    Learn More
+                </button>
+            </div>
         </div>
     )
 }
