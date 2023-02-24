@@ -4,6 +4,7 @@ import Body from "../CoreVals.js";
 import ImageSlider from "../ImageSlider"
 import "../pages/Home.css";
 import Captains from "../Captains";
+import Signup from "../SignUp.js";
 
 
 function Home(){
@@ -12,6 +13,7 @@ function Home(){
         <ImageSlider/>
         <Body/>
         <Captains/>
+        <Signup/>
         </>
     );
 }

@@ -32,9 +32,7 @@ function Navbar(){
                     <i className={click ? "fas fa-times" : "fas fa-bars"} />
                 </div>
                 <div className="nav-links-container">
-                    <Link to="/matches" className="nav-links">
-                            Matches
-                    </Link>
+                   
                     <div className="dropdown" ref={ref}>
                         <button className="nav-links" onClick={() => setIsMenuOpen(oldState => !oldState)}>
                             Our Teams
@@ -56,9 +54,6 @@ function Navbar(){
                 <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                     Home
                 </Link>
-                <Link to="matches" className="nav-links" onClick={closeMobileMenu}>
-                    Highlights
-                </Link>
                 <Link to="/boysTeam" className="nav-links" onClick={closeMobileMenu}>
                     Boys Team
                 </Link>
@@ -68,7 +63,6 @@ function Navbar(){
                 <Link to="calendar" className="nav-links" onClick={closeMobileMenu}>
                     Calendar
                 </Link>
-
             </div>
             </nav>
         </>

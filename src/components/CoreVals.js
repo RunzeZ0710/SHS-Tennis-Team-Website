@@ -19,12 +19,12 @@ function Body() {
                 <div className="core-value">
                     <img src={attitude} alt="attitude" height="250px" width="250px" />
                     <h2>Attitude</h2>
-                    <p>Attitude is key to success in tennis.</p>
+                    <p>In order to succeed in tennis, athletes need to have a right attitude towards both the game an the people around them.</p>
                 </div>
                 <div className="core-value">
                     <img src={discipline} alt="discipline" height="250px" width="250px" />
                     <h2>Discipline</h2>
-                    <p>"Don't do drugs, it's too expensive"</p>
+                    <p>Athletes must follow a consistent training schedule to improve their game.</p>
                 </div>
             </div>
         </div>

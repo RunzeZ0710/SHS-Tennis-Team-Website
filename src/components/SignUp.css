@@ -1,0 +1,57 @@
+.page{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFECCE;
+}
+
+
+.recruit-container{
+    max-width: 1700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page h1{
+    font-size: 35px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: poppins;
+    margin-top: 75px;
+    color: black;
+}
+
+.signupButton{
+    text-decoration: none;
+    width: 200px;
+    height: 75px;
+    background-color: #1D1F57;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 40px 0px rgb(197, 197, 197);
+    transition: all 0.2s ease-out;
+    color: white;
+    font-size: 30px;
+    font-family: poppins;
+}
+
+.signupButton:hover{
+    background-color: white;
+    transition: all 0.2s ease-out;
+    color: black;
+    cursor: pointer;
+}
+
+.signupRedirect{
+    text-decoration: none;
+    height: 75px;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 600px){
+    .page{
+        height: 450px;
+    }
+}

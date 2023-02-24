@@ -60,10 +60,12 @@ const ImageSlider = () => {
             })}
             <div className="mobile-front-image">
                 <h2>SHS Tennis</h2>
-                <p>"Don't do drugs, it's too expensive"</p> 
-                <button>
-                    Learn More
-                </button>
+                <p>Get ready for an amazing spring season</p> 
+                <a className="moreinfo" href="https://schools.shrewsburyma.gov/high/athletics/index" target="_blank" rel="noopener noreferrer">
+                    <button>
+                        Sign Up
+                    </button> 
+                </a>
             </div>
         </div>
     )

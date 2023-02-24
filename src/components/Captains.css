@@ -6,7 +6,7 @@
 }
 
 .captain-container{
-    height: 600px;
+    height: 550px;
     background-color: #ffdeaa;
     display: block;
     width: 100%;
@@ -36,7 +36,7 @@
     text-align: center;
 }
 .captain h2{
-    font-size: 40px;
+    font-size: 30px;
     font-family: poppins;
 }
 
@@ -93,12 +93,12 @@
     font-size: 20px;
     margin-top: 10px;
     padding-left: 50px;
-    padding-right: 10px;
+    padding-right: 50px;
     font-family: poppins;
 }
 
 .coach-content hr{
-    width: 75%;
+    width: 81%;
     margin-left: 50px;
     margin-top: 30px;
     background-color: black;

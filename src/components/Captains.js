@@ -26,13 +26,13 @@ function Captains(){
                         <div className="captain">
                             <img src={frame} alt="example" height="250px" width="250px"/>
                             <h2>
-                                Boy Captain 1
+                                Krish Gupta
                             </h2>
                         </div>
                         <div className="captain">
                             <img src={frame} alt="example" height="250px" width="250px"/>
                             <h2>
-                                Boy Captain 2
+                                Mihir Patil
                             </h2> 
                         </div>             
                     </div> 
