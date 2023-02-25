@@ -8,7 +8,21 @@
     justify-content: center;
     top: 60px;
     height:800px;
+    overflow: hidden;
 }
 .calendar{
     margin-top: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    .bodyCalendar{
+        max-width: 600px;
+        height: 800px;
+        
+    }
+    .calendar{
+        width: 600px;
+        height: 600px;
+        border: none;
+}
 }
