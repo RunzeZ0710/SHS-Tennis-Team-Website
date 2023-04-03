@@ -24,7 +24,7 @@
     background-color: #ffdeaa;
     font-size: 100px;
     font-family: poppins;
-    display: flex;
+    display: block;
     align-items: center;
     align-content: center;
     justify-content: center;
@@ -36,7 +36,8 @@
     text-align: center;
 }
 .captain h2{
-    font-size: 30px;
+    font-size: 40px;
+    margin-top: 15px;
     font-family: poppins;
 }
 

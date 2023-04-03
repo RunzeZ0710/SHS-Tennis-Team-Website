@@ -12,25 +12,25 @@ function Captains(){
                     </h1>
                     <div className="team-captains">
                         <div className="captain">
-                            <img src={frame} alt="example" height="250px" width="250px"/>
+                        
+                            <h2>
+                            Khadijah Ahmed
+                            </h2>
+                        </div>
+                        <div className="captain">
+                        
                             <h2>
                                 Aanya Gupta
                             </h2>
                         </div>
                         <div className="captain">
-                            <img src={frame} alt="example" height="250px" width="250px"/>
-                            <h2>
-                                Khadijah Ahmed
-                            </h2>
-                        </div>
-                        <div className="captain">
-                            <img src={frame} alt="example" height="250px" width="250px"/>
+                         
                             <h2>
                                 Krish Gupta
                             </h2>
                         </div>
                         <div className="captain">
-                            <img src={frame} alt="example" height="250px" width="250px"/>
+                          
                             <h2>
                                 Mihir Patil
                             </h2> 
@@ -44,7 +44,7 @@ function Captains(){
                         Dedicated Coaches.
                     </h1>
                     <div className="coach-R">
-                        <img src={frame} alt="coach" height="350px" width="350px"/>
+                     
                         <div className="coach-content">
                             <h2>Coach R</h2>
                             <p>
@@ -61,7 +61,7 @@ function Captains(){
                             </p>
                             <hr/>
                         </div>
-                        <img src={frame} alt="coach-josh" height="350px" width="350px"/>
+                       
                     </div>
                 </div>
             </div>
